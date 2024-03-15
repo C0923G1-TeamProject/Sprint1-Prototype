@@ -2,7 +2,7 @@
   display: flex;
 }
 .footer {
-  background: #3F3836;
+  background: #3f3836;
 }
 .body-header {
   position: sticky;
@@ -16,6 +16,22 @@
 body {
   padding: 0px;
   margin: 0px;
+}
+.margin-card {
+  margin: 8px;
+}
+.piture-card-body-home-page {
+  width: 100%;
+  height: 100%;
+}
+.text-body-card {
+  background-image: linear-gradient(to right, #515151, #b9b1ae);
+  width: 19%;
+  border-top-right-radius: 30px;
+}
+.color-marketing-homepage {
+  background: #f2f2f2;
+  border-radius: 2px;
 }
 .icon-header {
   height: 35px;
