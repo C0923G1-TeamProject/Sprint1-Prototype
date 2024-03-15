@@ -1,0 +1,43 @@
+.title {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    text-transform: uppercase
+}
+
+.custom-btn-1 {
+    border-color: #f44566;
+}
+
+.custom-btn-1 a {
+    color: #f44566;
+}
+
+.custom-btn-1:hover {
+    background-color: #f44566;
+    border-color: #f44566;
+}
+
+.custom-btn-1:hover a {
+    color: white;
+}
+
+.dis123 {
+    right: 0;
+    width: 45%;
+    position: absolute;
+    bottom: 0
+}
+
+.custom-btn {
+    border-color: #747264;
+    color: #747264;
+}
+
+.custom-btn:hover {
+    background-color: #747264;
+    border-color: #747264;
+    color: white;
+}
