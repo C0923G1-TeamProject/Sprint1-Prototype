@@ -46,28 +46,29 @@
         </div>
     </div>
 </div>
+<div class="container">
+    <h2 class="title">Danh sách khách hàng</h2>
+    <div class="d-flex align-items-center py-3">
+        <button class="btn custom-btn-1 me-4">
+            <a href="CreateCustomer.html" style="text-decoration: none;">Thêm mới khách hàng</a>
+        </button>
+        <form class="form-inline" action="@{/tourGuide/search}" method="post">
+            <div class="input-group">
+                <label class="me-2">
+                    <input type="text" class="form-control" name="name-search" placeholder="Nhập tên cần tìm">
+                </label>
+                <label>
+                    <input type="text" class="form-control" name="name-search" size="25"
+                           placeholder="Nhập số căn cước công dân">
+                </label>
+                <button type="submit" class="btn custom-btn">Tìm</button>
+            </div>
+        </form>
+    </div>
 
-<h2 class="title">Danh sách khách hàng</h2>
-<div class="d-flex align-items-center">
-    <button class="btn custom-btn-1 me-4">
-        <a href="CreateCustomer.html" style="text-decoration: none;">Thêm mới khách hàng</a>
-    </button>
-    <form class="form-inline" action="@{/tourGuide/search}" method="post">
-        <div class="input-group">
-            <label class="me-2">
-                <input type="text" class="form-control" name="name-search" placeholder="Nhập tên cần tìm">
-            </label>
-            <label>
-                <input type="text" class="form-control" name="name-search" size="25"
-                       placeholder="Nhập số căn cước công dân">
-            </label>
-            <button type="submit" class="btn custom-btn">Tìm</button>
-        </div>
-    </form>
-</div>
-<div>
-    <table class="table table-striped table-hover">
-        <tr style="background-color: #E0CCBE; color: #fff">
+    <table class="table table-striped">
+        <thead>
+        <tr class="table-header-list-contract">
             <th>#</th>
             <th>Họ Tên</th>
             <th>CCCD</th>
@@ -77,6 +78,7 @@
             <th>Dịch Vụ</th>
             <th>Xoá</th>
         </tr>
+        </thead>
         <tr>
             <td>1</td>
             <td>Nguyễn Đình Hoà</td>
@@ -88,7 +90,7 @@
                 </button>
             </td>
             <td>
-                <button type="button" class="btn custom-btn-2">
+                <button type="button" class="btn custom-btn-1">
                     <a href="" style="text-decoration: none">Chi tiết</a>
                 </button>
             </td>
@@ -115,7 +117,7 @@
                 </button>
             </td>
             <td>
-                <button type="button" class="btn custom-btn-2">
+                <button type="button" class="btn custom-btn-1">
                     <a href="" style="text-decoration: none">Chi tiết</a>
                 </button>
             </td>
@@ -142,7 +144,7 @@
                 </button>
             </td>
             <td>
-                <button type="button" class="btn custom-btn-2">
+                <button type="button" class="btn custom-btn-1">
                     <a href="" style="text-decoration: none">Chi tiết</a>
                 </button>
             </td>
@@ -169,7 +171,7 @@
                 </button>
             </td>
             <td>
-                <button type="button" class="btn custom-btn-2">
+                <button type="button" class="btn custom-btn-1">
                     <a href="" style="text-decoration: none">Chi tiết</a>
                 </button>
             </td>
