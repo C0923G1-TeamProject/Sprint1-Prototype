@@ -8,16 +8,16 @@
 }
 
 .custom-btn-1 {
-    border-color: #f44566;
+    border-color: #c77a29;
 }
 
 .custom-btn-1 a {
-    color: #f44566;
+    color: #c77a29;
 }
 
 .custom-btn-1:hover {
-    background-color: #f44566;
-    border-color: #f44566;
+    background-color: #c77a29;
+    border-color: #c77a29;
 }
 
 .custom-btn-1:hover a {

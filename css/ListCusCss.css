@@ -11,7 +11,7 @@ p {
     font-weight: bold;
     color: black;
     margin-top: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
     text-transform: uppercase
 }
 
@@ -61,13 +61,13 @@ p {
 }
 
 .custom-del {
-    border-color: #f44566;
-    color: #f44566;
+    border-color: #c77a29;
+    color: #c77a29;
 }
 
 .custom-del:hover {
-    background-color: #f44566;
-    border-color: #f44566;
+    background-color: #c77a29;
+    border-color: #c77a29;
     color: white;
 }
 
@@ -79,4 +79,9 @@ p {
 
 .table {
     margin-bottom: 100px;
+}
+
+.table-header-list-contract {
+    background-color: #747264;
+    color: #fff
 }
