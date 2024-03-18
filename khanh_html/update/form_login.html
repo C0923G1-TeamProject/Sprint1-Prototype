@@ -19,7 +19,7 @@
 	}
 
 	body {
-		background: linear-gradient(to top, rgba(0, 0, 0, 0) 50%, #e5ab81 110%, #e5ab81fa 10%), url("./city-dawn.jpg");
+		background: linear-gradient(to top, rgba(0, 0, 0, 0) 50%, #ffffff 100%, #e5ab81fa 10%), url("./city-dawn.jpg");
 		background-size: cover;
 	}
 
@@ -111,7 +111,7 @@
 		position: absolute;
 		top: 26px;
 		color: #ec7608;
-		left: -8px;
+		left: -3px;
 	}
 
 	.login__input {
@@ -119,7 +119,7 @@
 		border-bottom: 2px solid #D1D1D4;
 		background: none;
 		padding: 10px;
-		padding-left: 24px;
+		padding-left: 32px;
 		font-weight: 700;
 		width: 75%;
 		transition: .2s;
@@ -205,7 +205,32 @@
 		overflow: hidden;
 	}
 
+	.k-eye-icon {
+		position: absolute;
+		scale: 0.04;
+		right: -183px;
+		bottom: -219px;
+		background-color: white;
+		z-index: 10;
+		opacity: 70%;
+	}
+
+	.k-break-wall-eye {
+		position: absolute;
+		right: 56px;
+		bottom: 27px;
+		background-color: #fff;
+		height: 22px;
+		width: 38px;
+		z-index: 9;
+	}
+
 	/* checkbox */
+
+	.k-checkbox {
+		margin-top: 17px;
+		margin-left: -3px;
+	}
 
 	.checkbox-wrapper-1 *,
 	.checkbox-wrapper-1 ::after,
@@ -318,10 +343,12 @@
 							<i class="login__icon fas fa-lock"><span class="material-symbols-outlined">
 									lock
 								</span></i>
-							<input type="password" class="login__input" placeholder="Mật khẩu">
+							<input type="password" class="login__input" placeholder="Mật khẩu" id="password">
+							<img src="./icon-m6/hide.png" class="k-eye-icon" id="eye">
+							<div class="k-break-wall-eye"></div>
 						</div>
 
-						<div class="checkbox-wrapper-1">
+						<div class="checkbox-wrapper-1 k-checkbox">
 							<input id="example-1" class="substituted" type="checkbox" aria-hidden="true" />
 							<label for="example-1">Ghi nhớ đăng nhập</label>
 						</div>
@@ -354,6 +381,27 @@
 			</div>
 		</div>
 	</div>
+
+
+
+	<script>
+		let password = document.getElementById("password");
+		let eye = document.getElementById("eye");
+		function togglePasswordEye() {
+
+			if (password.type === "password") {
+				password.type = "text";
+				eye.src = "./icon-m6/view.png"
+			} else {
+				password.type = "password";
+				eye.src = "./icon-m6/hide.png"
+			}
+		}
+
+		eye.addEventListener('click', togglePasswordEye);
+
+	</script>
 </body>
+
 
 </html>
