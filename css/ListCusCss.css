@@ -85,3 +85,12 @@ p {
     background-color: #747264;
     color: #fff
 }
+.btn-action-list-contract{
+    background-color: #E0CCBE;
+}
+.btn-action-list-contract a{
+    color: black;
+}
+.btn-action-list-contract:hover{
+    background-color: #b89c8a;
+}
