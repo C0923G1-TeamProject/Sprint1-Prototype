@@ -1,296 +1,293 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danh sách khách hàng</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/homePage.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
-          rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
-          crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/ListCusCss.css">
 </head>
+
 <body>
-<div class="body-header">
-    <!-- top header start -->
-    <div class="display header-bar " style="background: #212529;">
-        <div class="col-xs-0 colsm-1 col-md-1 col-lg-1"></div>
-        <div class="col-xs-0 col-sm-9 col-md-9 col-lg-9 icon-header" style="color: white;"><i class="fa fa-phone"
-                                                                                              style="font-size:25px;color:#EEB043"></i>
-            0813.06.16.36 | <i class="fa fa-map-marker" style="font-size:25px;color:#EEB043"></i> 35 Thái Phiên -
-            Hải
-            Châu - Đà Nẵng
-        </div>
-        <div class="col-xs-12 col-sm-1 col-md-2 col-lg-2">
-            <button class="icon-header"><i class="fa fa-facebook-f"
-                                           style="font-size:25px;color:#3f3836"></i></button>
-            <button class="icon-header"><i class="fa fa-twitter" style="font-size:25px;color:#3f3836"></i></button>
-            <button class="icon-header"><i class="fa fa-instagram"
-                                           style="font-size:25px;color:#3f3836"></i></button>
-            <button class="icon-header"><i class="fa fa-envelope" style="font-size:25px;color:#3f3836"></i></button>
-        </div>
-        <div class="body-header">
-            <div class="display header-bar " style="background: #212529;">
+    <div class="body-header">
+        <!-- top header start -->
+        <div class="display header-bar " style="background: #212529;">
+            <div class="col-xs-0 colsm-1 col-md-1 col-lg-1"></div>
+            <div class="col-xs-0 col-sm-9 col-md-9 col-lg-9 icon-header" style="color: white;"><i class="fa fa-phone"
+                    style="font-size:25px;color:#EEB043"></i>
+                0813.06.16.36 | <i class="fa fa-map-marker" style="font-size:25px;color:#EEB043"></i> 35 Thái Phiên -
+                Hải
+                Châu - Đà Nẵng
             </div>
-            <!-- <div class="icon-container col-xs-12"> <button class="icon-header"><i class="fa fa-facebook-f"
+            <div class="col-xs-12 col-sm-1 col-md-2 col-lg-2">
+                <button class="icon-header"><i class="fa fa-facebook-f"
+                        style="font-size:25px;color:#3f3836"></i></button>
+                <button class="icon-header"><i class="fa fa-twitter" style="font-size:25px;color:#3f3836"></i></button>
+                <button class="icon-header"><i class="fa fa-instagram"
+                        style="font-size:25px;color:#3f3836"></i></button>
+                <button class="icon-header"><i class="fa fa-envelope" style="font-size:25px;color:#3f3836"></i></button>
+            </div>
+            <div class="body-header">
+                <div class="display header-bar " style="background: #212529;">
+                </div>
+                <!-- <div class="icon-container col-xs-12"> <button class="icon-header"><i class="fa fa-facebook-f"
                         style="font-size:25px;color:#3f3836"></i></button>
             </div> -->
+            </div>
         </div>
-    </div>
-    <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn"
-         data-wow-delay="0.1s">
-        <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
-            <img class="logo-header" src="/img/Logo_header.png" alt="Image" />
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
+        <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn"
+            data-wow-delay="0.1s">
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <img class="logo-header" src="/img/Logo_header.png" alt="Image" />
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse"
                 data-bs-target="#navbarCollapse">
                 <span class="navbar-toggler-icon">
                 </span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <button class="button-header nav-item nav-link"><a>Trang chủ</a></button>
-                <button class="button-header nav-item nav-link"><a>Giới thiệu</a></button>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <button class="button-header nav-item nav-link"><a href="../homePage/loginPage.html"
+                            style="text-decoration: none; color: grey;">Trang chủ</a></button>
+                    <button class="button-header nav-item nav-link"><a>Giới thiệu</a></button>
 
-                <button class="button-header nav-item nav-link"><a>Liên hệ</a></button>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
-                        Quản lý
-                    </a>
-                    <div class="dropdown-menu border-0 m-0">
-                        <a href="" class="dropdown-item">
-                            Quản lý nhân viên
+                    <button class="button-header nav-item nav-link"><a>Liên hệ</a></button>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                            Quản lý
                         </a>
-                        <a href="" class="dropdown-item">
-                            Quản lý hợp đồng
-                        </a>
-                        <a href="ListCustomer.html" class="dropdown-item">
-                            Quản lý khách hàng
-                        </a>
+                        <div class="dropdown-menu border-0 m-0">
+                            <a href="" class="dropdown-item">
+                                Quản lý nhân viên
+                            </a>
+                            <a href="" class="dropdown-item">
+                                Quản lý hợp đồng
+                            </a>
+                            <a href="ListCustomer.html" class="dropdown-item">
+                                Quản lý khách hàng
+                            </a>
 
+                        </div>
                     </div>
                 </div>
+                <a href="../khanh_html/form_login.html">
+                    <!-- <i class="fa fa-user" style="font-size:30px;color:#3F3836"></i> -->
+                    <i class='fa fa-user-circle' style="font-size:30px;color:#3F3836"></i>
+                </a>
             </div>
-            <a href="../khanh_html/form_login.html">
-                <!-- <i class="fa fa-user" style="font-size:30px;color:#3F3836"></i> -->
-                <i class='fa fa-user-circle' style="font-size:30px;color:#3F3836"></i>
-            </a>
-        </div>
-    </nav>
-    <!-- header end -->
-</div>
-<div class="container">
-    <h2 class="title">Danh sách khách hàng</h2>
-    <div class="d-flex align-items-center py-3">
-        <button class="btn btn-secondary me-4">
-            <a href="CreateCustomer.html" style="text-decoration: none; color: white">Thêm mới khách hàng</a>
-        </button>
-        <form class="form-inline" action="@{/tourGuide/search}" method="post">
-            <div class="input-group">
-                <label class="me-2">
-                    <input type="text" class="form-control" name="name-search" placeholder="Nhập tên cần tìm">
-                </label>
-                <label class="me-2">
-                    <input type="text" class="form-control" name="name-search" size="25"
-                           placeholder="Nhập số căn cước công dân">
-                </label>
-                <button type="submit" class="btn btn-secondary">Tìm</button>
-            </div>
-        </form>
-    </div>
-
-    <table class="table table-striped">
-        <thead>
-        <tr class="table-header-list-contract">
-            <th>#</th>
-            <th>Họ Tên</th>
-            <th>CCCD</th>
-            <th>Công Ty</th>
-            <th>Chi Tiết</th>
-            <th>Mặt Bằng</th>
-            <th>Dịch Vụ</th>
-            <th>Xoá</th>
-        </tr>
-        </thead>
-        <tr>
-            <td>1</td>
-            <td>Nguyễn Đình Hoà</td>
-            <td>343432432</td>
-            <td>Hoa Thiên Phú</td>
-            <td>
-                <button type="button" class="btn btn-action-list-contract">
-                    <a href="" style="text-decoration: none">Xem</a>
-                </button>
-            </td>
-            <td>
-                <button type="button" class="btn btn-action-list-contract">
-                    <a href="" style="text-decoration: none">Chi tiết</a>
-                </button>
-            </td>
-            <td>
-                <button type="button" class="btn btn-action-list-contract">
-                    <a href="" style="text-decoration: none">Xem</a>
-                </button>
-            </td>
-            <td>
-                <button type="button" class="btn btn-action-list-contract"
-                        data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Xoá
-                </button>
-            </td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Nguyễn Vân Anh</td>
-            <td>343432432</td>
-            <td>Hoa Cúc</td>
-            <td>
-                <button type="button" class="btn btn-action-list-contract">
-                    <a href="" style="text-decoration: none">Xem</a>
-                </button>
-            </td>
-            <td>
-                <button type="button" class="btn btn-action-list-contract">
-                    <a href="" style="text-decoration: none">Chi tiết</a>
-                </button>
-            </td>
-            <td>
-                <button type="button" class="btn btn-action-list-contract">
-                    <a href="" style="text-decoration: none">Xem</a>
-                </button>
-            </td>
-            <td>
-                <button type="button" class="btn btn-action-list-contract"
-                        data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Xoá
-                </button>
-            </td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Lê Đình Quốc</td>
-            <td>565632433</td>
-            <td>Hoa Mặt Trời</td>
-            <td>
-                <button type="button" class="btn btn-action-list-contract">
-                    <a href="" style="text-decoration: none">Xem</a>
-                </button>
-            </td>
-            <td>
-                <button type="button" class="btn btn-action-list-contract">
-                    <a href="" style="text-decoration: none">Chi tiết</a>
-                </button>
-            </td>
-            <td>
-                <button type="button" class="btn btn-action-list-contract">
-                    <a href="" style="text-decoration: none">Xem</a>
-                </button>
-            </td>
-            <td>
-                <button type="button" class="btn btn-action-list-contract"
-                        data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Xoá
-                </button>
-            </td>
-        </tr>
-        <tr>
-            <td>4</td>
-            <td>Phạm Minh Hưng</td>
-            <td>343435668</td>
-            <td>Hoa Vạn Thọ</td>
-            <td>
-                <button type="button" class="btn btn-action-list-contract">
-                    <a href="" style="text-decoration: none">Xem</a>
-                </button>
-            </td>
-            <td>
-                <button type="button" class="btn btn-action-list-contract">
-                    <a href="" style="text-decoration: none">Chi tiết</a>
-                </button>
-            </td>
-            <td>
-                <button type="button" class="btn btn-action-list-contract">
-                    <a href="" style="text-decoration: none">Xem</a>
-                </button>
-            </td>
-            <td>
-                <button type="button" class="btn btn-action-list-contract"
-                        data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Xoá
-                </button>
-            </td>
-        </tr>
-    </table>
-    <div class="pagination-wrapper">
-        <nav aria-label="...">
-            <ul class="pagination pagination-circle ">
-                <li class="page-item">
-                    <a class="page-link">Trang đầu</a>
-                </li>
-                <div>
-                    <div>
-                        <li class="page-item active" aria-current="page">
-                            <a class="page-link"><span
-                                    class="visually-hidden"></span>1</a>
-                        </li>
-                    </div>
-                    <div>
-                        <!--                    <li class="page-item"><a class="page-link"></a></li>-->
-                    </div>
-                </div>
-                <li class="page-item">
-                    <a class="page-link">Trang cuối</a>
-                </li>
-            </ul>
         </nav>
+        <!-- header end -->
     </div>
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <form action="@{tourGuide/delete}" method="get">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLabel">Xác nhận</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <input hidden="hidden" id="id" name="id">
-                        <span>Bạn có muốm xoá </span>
-                        <span id="delName"></span>
-                        <span> không?</span>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Huỷ</button>
-                        <button type="submit" class="btn btn-primary">Xoá</button>
-                    </div>
+    <div class="container">
+        <h2 class="title">Danh sách khách hàng</h2>
+        <div class="d-flex align-items-center py-3">
+            <button class="btn custom-btn-1 me-4">
+                <a href="CreateCustomer.html" style="text-decoration: none;">Thêm mới khách hàng</a>
+            </button>
+            <form class="form-inline" action="@{/tourGuide/search}" method="post">
+                <div class="input-group">
+                    <label class="me-2">
+                        <input type="text" class="form-control" name="name-search" placeholder="Nhập tên cần tìm">
+                    </label>
+                    <label>
+                        <input type="text" class="form-control" name="name-search" size="25"
+                            placeholder="Nhập số căn cước công dân">
+                    </label>
+                    <button type="submit" class="btn custom-btn">Tìm</button>
                 </div>
             </form>
         </div>
-    </div>
-</div>
-<div class="footer ">
-    <div class="display">
-        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-            <img class="logo_footer" src="/img/Logo_footer.png">
-        </div>
-        <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background: #3F3836;"></div>
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="background: #3F3836;">
 
-            <a class="text-footer"><i class="fa fa-map-marker" style="font-size:25px;color:white"></i> Địa
-                chỉ : Số
-                35
-                Thái Phiên, Phường Phước Ninh, Quận Hải Châu, Đà Nẵng</a><br/>
-            <a class="text-footer"><i class="fa fa-phone" style="font-size:25px;color:white"></i>Diện thoại :
-                0813.06.16.36</a>
-
+        <table class="table table-striped">
+            <thead>
+                <tr class="table-header-list-contract">
+                    <th>#</th>
+                    <th>Họ Tên</th>
+                    <th>CCCD</th>
+                    <th>Công Ty</th>
+                    <th>Chi Tiết</th>
+                    <th>Mặt Bằng</th>
+                    <th>Dịch Vụ</th>
+                    <th>Xoá</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>1</td>
+                <td>Nguyễn Đình Hoà</td>
+                <td>343432432</td>
+                <td>Hoa Thiên Phú</td>
+                <td>
+                    <button type="button" class="btn custom-btn-1">
+                        <a href="" style="text-decoration: none">Xem</a>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn custom-btn-1">
+                        <a href="" style="text-decoration: none">Chi tiết</a>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn custom-btn-1">
+                        <a href="" style="text-decoration: none">Xem</a>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn custom-del" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Xoá
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Nguyễn Vân Anh</td>
+                <td>343432432</td>
+                <td>Hoa Cúc</td>
+                <td>
+                    <button type="button" class="btn custom-btn-1">
+                        <a href="" style="text-decoration: none">Xem</a>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn custom-btn-1">
+                        <a href="" style="text-decoration: none">Chi tiết</a>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn custom-btn-1">
+                        <a href="" style="text-decoration: none">Xem</a>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn custom-del" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Xoá
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Lê Đình Quốc</td>
+                <td>565632433</td>
+                <td>Hoa Mặt Trời</td>
+                <td>
+                    <button type="button" class="btn custom-btn-1">
+                        <a href="" style="text-decoration: none">Xem</a>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn custom-btn-1">
+                        <a href="" style="text-decoration: none">Chi tiết</a>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn custom-btn-1">
+                        <a href="" style="text-decoration: none">Xem</a>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn custom-del" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Xoá
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Phạm Minh Hưng</td>
+                <td>343435668</td>
+                <td>Hoa Vạn Thọ</td>
+                <td>
+                    <button type="button" class="btn custom-btn-1">
+                        <a href="" style="text-decoration: none">Xem</a>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn custom-btn-1">
+                        <a href="" style="text-decoration: none">Chi tiết</a>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn custom-btn-1">
+                        <a href="" style="text-decoration: none">Xem</a>
+                    </button>
+                </td>
+                <td>
+                    <button type="button" class="btn custom-del" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Xoá
+                    </button>
+                </td>
+            </tr>
+        </table>
+        <div class="pagination-wrapper">
+            <nav aria-label="...">
+                <ul class="pagination pagination-circle ">
+                    <li class="page-item">
+                        <a class="page-link">Trang đầu</a>
+                    </li>
+                    <div>
+                        <div>
+                            <li class="page-item active" aria-current="page">
+                                <a class="page-link"><span class="visually-hidden"></span>1</a>
+                            </li>
+                        </div>
+                        <div>
+                            <!--                    <li class="page-item"><a class="page-link"></a></li>-->
+                        </div>
+                    </div>
+                    <li class="page-item">
+                        <a class="page-link">Trang cuối</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <form action="@{tourGuide/delete}" method="get">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Xác nhận</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <input hidden="hidden" id="id" name="id">
+                            <span>Bạn có muốm xoá </span>
+                            <span id="delName"></span>
+                            <span> không?</span>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Huỷ</button>
+                            <button type="submit" class="btn btn-primary">Xoá</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
-    <a style="color: #EEB043;">© C0923G1 | Codegym Đà Nẵng</a>
-</div>
+    <div class="footer ">
+        <div class="display">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <img class="logo_footer" src="/img/Logo_footer.png">
+            </div>
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background: #3F3836;"></div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="background: #3F3836;">
+
+                <a class="text-footer"><i class="fa fa-map-marker" style="font-size:25px;color:white"></i> Địa
+                    chỉ : Số
+                    35
+                    Thái Phiên, Phường Phước Ninh, Quận Hải Châu, Đà Nẵng</a><br />
+                <a class="text-footer"><i class="fa fa-phone" style="font-size:25px;color:white"></i>Diện thoại :
+                    0813.06.16.36</a>
+
+            </div>
+        </div>
+        <a style="color: #EEB043;">© C0923G1 | Codegym Đà Nẵng</a>
+    </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     let selectedButton = null;
@@ -304,4 +301,5 @@
     });
 </script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </html>
