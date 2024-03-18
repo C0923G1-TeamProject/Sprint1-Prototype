@@ -91,9 +91,9 @@ body {
   content: "DIAMONTIME";
   position: absolute;
   top: 50%;
-  left: 20%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #EEB043;
   font-size: 50px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
@@ -104,7 +104,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #EEB043;
   font-size: 50px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
@@ -115,7 +115,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: #EEB043;
   font-size: 50px;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
@@ -274,7 +274,7 @@ h1,
 .h1,
 .fw-bold {
   font-weight: 600 !important;
-  color: #b78d65;
+  color: #462E15;
 }
 
 /*** Service ***/
