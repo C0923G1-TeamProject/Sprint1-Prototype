@@ -2,21 +2,21 @@
     text-align: center;
     font-weight: bold;
     color: black;
-    margin-top: 20px;
     margin-bottom: 80px;
     text-transform: uppercase
 }
 
 .custom-btn-1 {
     border-color: #c77a29;
+    background-color: #c77a29;
 }
 
 .custom-btn-1 a {
-    color: #c77a29;
+    color: white;
 }
 
 .custom-btn-1:hover {
-    background-color: #c77a29;
+    background-color: #b77632;
     border-color: #c77a29;
 }
 
@@ -33,11 +33,12 @@
 
 .custom-btn {
     border-color: #747264;
-    color: #747264;
+    color: white;
+    background-color: #747264;
 }
 
 .custom-btn:hover {
-    background-color: #747264;
+    background-color: #5d5b54;
     border-color: #747264;
     color: white;
 }
