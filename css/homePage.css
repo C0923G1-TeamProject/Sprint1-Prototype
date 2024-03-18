@@ -373,11 +373,11 @@ h1,
 }
 /*** Team ***/
 .team-items {
-  margin: -.75rem;
+  margin: -0.75rem;
 }
 
 .team-item {
-  padding: .75rem;
+  padding: 0.75rem;
 }
 
 .team-item::after {
@@ -387,8 +387,8 @@ h1,
   height: 0;
   top: 0;
   left: 0;
-  background: #FFFFFF;
-  transition: .5s;
+  background: #ffffff;
+  transition: 0.5s;
   z-index: -1;
 }
 
@@ -412,6 +412,6 @@ h1,
 }
 
 .team-item .team-social .btn:hover {
-  color: #FFFFFF;
+  color: #ffffff;
   background: var(--primary);
 }
