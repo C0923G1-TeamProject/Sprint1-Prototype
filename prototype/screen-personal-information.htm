@@ -7,6 +7,8 @@
     <title>Trang thông tin cá nhân</title>
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Template Stylesheet -->
@@ -151,174 +153,83 @@
                         <table>
                             <tr>
                                 <td>
-                                    <label>Nhập mật khẩu cũ: </label>
+                                    <label>Nhập mật khẩu cũ: <span class="material-symbols-outlined lock-vi">
+									lock
+								</span> </label>
                                 </td>
                                 <td>
-                                    <input class="input-pass input-password-eyes"/>
+                                    <input class="input-pass input-password-eyes" id="pass"/>
                                 </td>
                                 <td>
-                                    <button style="border: none;background: none"><i
-                                            class="fa-regular fa-eye-slash input-password-eyes"></i></button>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label>Nhập mật khẩu mới: </label>
-                                </td>
-                                <td>
-                                    <input class="input-pass input-password-eyes"/>
-                                </td>
-                                <td>
-                                    <button style="border: none;background: none"><i
-                                            class="fa-regular fa-eye-slash input-password-eyes"></i></button>
+                                    <img src="./icon-eye/hide.png" class="vi-eye" id="img">
                                 </td>
                             </tr>
                             <tr>
                                 <td>
-                                    <label>Nhập lại mật khẩu mới: </label>
+                                    <label>Nhập mật khẩu mới: <span class="material-symbols-outlined lock-a-vi">
+									lock
+								</span> </label>
                                 </td>
                                 <td>
-                                    <input class="input-pass input-password-eyes"/>
+                                    <input class="input-pass input-password-eyes" id="pass2"/>
                                 </td>
                                 <td>
-                                    <button style="border: none;background: none"><i
-                                            class="fa-regular fa-eye-slash  5r input-password-eyes"></i></button>
+                                    <img src="./icon-eye/hide.png" class="vi-eye-2" id="img2">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label>Nhập lại mật khẩu mới: <span class="material-symbols-outlined lock-b-vi">
+									lock
+								</span> </label>
+                                </td>
+                                <td>
+                                    <input class="input-pass input-password-eyes" id="pass3"/>
+                                </td>
+                                <td>
+                                    <img src="./icon-eye/hide.png" class="vi-eye-3" id="img3">
                                 </td>
 
                             </tr>
                         </table>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy
+                        <button type="button" class="btn-cancel" data-bs-dismiss="modal">Hủy
                         </button>
-                        <button type="button" class="btn btn-primary">Xác nhận</button>
+                        <button type="button" class="btn-done">Xác nhận</button>
                     </div>
                 </div>
             </div>
         </div>
 
     </div>
-    <!--    <div class="display-personal-information">-->
-    <!--        <div class="col-md-1 col-lg-1"></div>-->
-    <!--        <div class="container">-->
-
-    <!--        </div>-->
-    <!--        <div class="box-shadow-information">-->
-    <!--            <div class="col-md-4 col-lg-4 profile">-->
-
-    <!--                <div>-->
-    <!--                    <img src="avt.jpg" alt="" class="avatar"/>-->
-    <!--                </div>-->
-    <!--                &lt;!&ndash; 1 hinh anh &ndash;&gt;-->
-    <!--                <br/>-->
-    <!--                <div>-->
-    <!--                    <button type="button" class="btn btn-secondary">Thay đổi avatar</button>-->
-    <!--                    &lt;!&ndash; 1 nut button ( de upload anh) &ndash;&gt;-->
-    <!--                </div>-->
-    <!--            </div>-->
-
-    <!--            <div class="col-md-7 col-lg-7 ">-->
-    <!--                &lt;!&ndash;            <div>&ndash;&gt;-->
-    <!--                &lt;!&ndash;                <h1 class="information">Thông tin cá nhân</h1>&ndash;&gt;-->
-    <!--                &lt;!&ndash;            </div>&ndash;&gt;-->
-    <!--                <div>-->
-    <!--                    <form class="form-information">-->
-    <!--                        <label class="label col-2">Tài khoản: </label>-->
-    <!--                        <input class="input" type="text" value="tài khoản mẫu" readonly/>-->
-    <!--                        <br/>-->
-    <!--                        <label class="label col-2">Email: </label>-->
-    <!--                        <input class="input" type="text" value="Email mẫu" readonly/>-->
-    <!--                        <br/>-->
-    <!--                        <label class="label col-2">Họ và Tên: </label>-->
-    <!--                        <input class="input" type="text" value="tên khoản mẫu" readonly/>-->
-    <!--                        <br/>-->
-    <!--                        <label class="label col-2">Ngày sinh </label>-->
-    <!--                        <input class="input" type="text" value="ngày sinh mẫu" readonly/>-->
-    <!--                        <br/>-->
-    <!--                        <label class="label col-2">Giới tính </label>-->
-    <!--                        <input class="input" type="text" value="giới tính mẫu" readonly/>-->
-    <!--                        <br/>-->
-    <!--                        <label class="label col-2">Địa chỉ: </label>-->
-    <!--                        <input class="input" type="text" value="địa chỉ mẫu" readonly/>-->
-    <!--                        <br/>-->
-    <!--                        <label class="label col-2">Số điện thoại</label>-->
-    <!--                        <input class="input" type="text" value="tên khoản mẫu" readonly/>-->
-    <!--                        <br/>-->
-    <!--                        &lt;!&ndash;                    <div class="button-group">&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                        <button type="button" class="btn-update">Chỉnh sửa</button>&ndash;&gt;-->
-
-    <!--                        &lt;!&ndash;                        <button type="button" class="btn-changed-password" data-bs-toggle="modal"&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                data-bs-target="#staticBackdrop">&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                            Đổi mật khẩu&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                        </button>&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                    </div>&ndash;&gt;-->
-
-
-    <!--                        &lt;!&ndash;                    <div class="modal" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                         tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                        <div class="modal-dialog">&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                            <div class="modal-content">&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                <div class="modal-header">&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Đổi mật khẩu</h1>&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                    <button type="button" class="btn-close" data-bs-dismiss="modal"&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                            aria-label="Close"></button>&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                </div>&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                <div class="modal-body">&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                    <div class="password-field">&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                        <label class="label">Mật khẩu cũ</label>&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                        <input type="password"/>&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                    </div>&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                    <div class="password-field">&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                        <label class="label">Nhập mật khẩu mới</label>&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                        <input type="password"/>&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                    </div>&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                    <div class="password-field">&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                        <label class="label">Nhập lại mật khẩu mới</label>&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                        <input type="password"/>&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                    </div>&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                </div>&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                <div class="button-group-modal">&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                    <button type="button" class="btn btn-secondary"&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                            data-bs-dismiss="modal">Hủy&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                    </button>&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                    <button type="button" class="btn btn-primary">Xác nhận</button>&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                                </div>&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                            </div>&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                        </div>&ndash;&gt;-->
-    <!--                        &lt;!&ndash;                    </div>&ndash;&gt;-->
-    <!--                    </form>-->
-    <!--                </div>-->
-    <!--            </div>-->
-    <!--        </div>-->
-
-    <!--    </div>-->
 
 </div>
 
-    <div>
-        <!-- Footer Start -->
-        <div class="footer">
-            <div class="display">
-                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                    <img class="logo_footer" src="/img/Logo_footer.png">
-                </div>
-                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background: #3F3836;"></div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="background: #3F3836;">
-
-                    <a class="text-footer"><i class="fa fa-map-marker" style="font-size:25px;color:white"></i> Địa
-                        chỉ : Số
-                        35
-                        Thái Phiên, Phường Phước Ninh, Quận Hải Châu, Đà Nẵng</a><br />
-                    <a class="text-footer"><i class="fa fa-phone" style="font-size:25px;color:white"></i>Diện thoại :
-                        0813.06.16.36</a>
-
-                </div>
+<div>
+    <!-- Footer Start -->
+    <div class="footer">
+        <div class="display">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <img class="logo_footer" src="/img/Logo_footer.png">
             </div>
-            <a style="color: #EEB043;">© C0923G1 | Codegym Đà Nẵng</a>
-        </div>
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background: #3F3836;"></div>
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="background: #3F3836;">
 
-        <!-- Footer End -->
+                <a class="text-footer"><i class="fa fa-map-marker" style="font-size:25px;color:white"></i> Địa
+                    chỉ : Số
+                    35
+                    Thái Phiên, Phường Phước Ninh, Quận Hải Châu, Đà Nẵng</a><br/>
+                <a class="text-footer"><i class="fa fa-phone" style="font-size:25px;color:white"></i>Diện thoại :
+                    0813.06.16.36</a>
+
+            </div>
+        </div>
+        <a style="color: #EEB043;">© C0923G1 | Codegym Đà Nẵng</a>
     </div>
+
+    <!-- Footer End -->
+</div>
 
 
 </body>
@@ -338,5 +249,55 @@
     });
 </script>
 <!-- kết thúc chuyển màu khi nhấn -->
+<script>
+    let pass = document.getElementById("pass");
+    let img = document.getElementById("img");
+
+    function changedPassword() {
+        if (pass.type == "password") {
+            pass.type = "text";
+            img.src = "./icon-eye/view.png";
+        } else {
+            pass.type = "password";
+            img.src = "./icon-eye/hide.png";
+        }
+    }
+
+    img.addEventListener('click', changedPassword);
+</script>
+
+<script>
+    let pass2 = document.getElementById("pass2");
+    let img2 = document.getElementById("img2");
+
+    function changedPassword() {
+        if (pass2.type == "password") {
+            pass2.type = "text";
+            img2.src = "./icon-eye/view.png";
+        } else {
+            pass2.type = "password";
+            img2.src = "./icon-eye/hide.png";
+        }
+    }
+
+    img2.addEventListener('click', changedPassword);
+</script>
+
+<script>
+    let pass3 = document.getElementById("pass3");
+    let img3 = document.getElementById("img3");
+
+    function changedPassword() {
+        if (pass3.type == "password") {
+            pass3.type = "text";
+            img3.src = "./icon-eye/view.png";
+        } else {
+            pass3.type = "password";
+            img3.src = "./icon-eye/hide.png";
+        }
+    }
+
+    img3.addEventListener('click', changedPassword);
+</script>
 
 </html>
