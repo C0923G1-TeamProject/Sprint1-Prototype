@@ -11,3 +11,11 @@
 .btn-action-list-contract:hover{
     background-color: #b89c8a;
 }
+
+.link-create-contract{
+    text-decoration: none;
+    text-align: right;
+}
+.title-create-contract{
+    font-weight: 500;
+}
