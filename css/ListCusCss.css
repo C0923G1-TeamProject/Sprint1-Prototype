@@ -71,10 +71,24 @@ p {
     color: white;
 }
 
-.pagination-wrapper {
+.pagination-wrapper{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+}
+.page-link{
+    color: #747264;
+}
+.page-link:hover{
+    color: #92883E;
+}
+.active>.page-link{
+    background-color: #E0CCBE;
+    border:none;
+    color: black;
+}
+.active>.page-link:hover{
+    background-color: #B89C8A;
 }
 
 .table {
