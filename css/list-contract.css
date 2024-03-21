@@ -17,4 +17,22 @@
     text-decoration: none;
     text-align: right;
 }
-
+.pagination-wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.page-link{
+    color: #747264;
+}
+.page-link:hover{
+    color: #92883e;
+}
+.active>.page-link{
+    background-color: #E0CCBE;
+    border:none;
+    color: black;
+}
+.active>.page-link:hover{
+    background-color: #b89c8a;
+}

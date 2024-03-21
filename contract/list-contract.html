@@ -95,7 +95,7 @@
 
             <div class="row mt-5">
                 <div class="col-sm-2 mb-3">
-                    <a class="btn" style="border-color: #747264;" href="./create-contract.html">Tạo mới hợp đồng</a>
+                    <a class="btn btn-secondary"  href="./create-contract.html">Tạo mới hợp đồng</a>
 
                 </div>
                 <div class="col-sm-3 mb-3">
@@ -114,13 +114,13 @@
                 <div class="col-sm-3 mb-3">
                     <select class="form-select">
                         <option selected>Tìm kiếm theo trạng thái</option>
-                        <option value="status">Đang thuê</option>
+                        <option value="status">Còn hiệu lực</option>
                         <option value="status">Đã thuê</option>
                     </select>
                     <!-- <input type="date" class="form-control" placeholder="Tìm kiếm ngày bắt đầu"/> -->
                 </div>
                 <div class="col-sm-2">
-                    <button type="submit" class="btn" style="border-color: #747264;">Tìm kiếm</button>
+                    <button type="submit" class="btn btn-secondary" >Tìm kiếm</button>
 
                 </div>
             </div>
@@ -128,104 +128,104 @@
                 <thead>
                     <tr class="table-header-list-contract">
                         <th scope="col">#</th>
+                        <th scope="col">Mã hợp đồng</th>
                         <th scope="col">Tên khách hàng</th>
                         <th scope="col">Tên mặt bằng</th>
                         <th scope="col">Trạng thái</th>
-                        <th scope="col" colspan="3" class="text-center">Tùy chọn</th>
+                        <th scope="col">Ngày kết thúc</th>
+                        <!-- <th scope="col" colspan="3" class="text-center">Tùy chọn</th> -->
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>1</td>
+                        <td>HD-0001</td>
                         <td>Nguyễn Văn An</td>
                         <td>Mặt bằng tầng 1 - 280 Trần Hưng Đạo</td>
                         <td>
-                            Đang thuê
+                            Còn hiệu lực
+                        </td>
+                        <!-- <td>
+                            <button class="btn  btn-action-list-contract" >Chi tiết</button>
                         </td>
                         <td>
-                            <button class="btn " style="border-color: #747264;">Chi tiết</button>
+                            <button class="btn  btn-action-list-contract" >Sửa</button>
                         </td>
                         <td>
-                            <button class="btn " style="border-color: #747264;">Sửa</button>
-                        </td>
-                        <td>
-                            <button type="button" class="btn " style="border-color: #747264;" data-bs-toggle="modal"
+                            <button type="button" class="btn  btn-action-list-contract"  data-bs-toggle="modal"
                                 data-bs-target="#staticBackdrop">
                                 Xóa
                             </button>
 
-                        </td>
+                        </td> -->
+                        <td>30/03/2024</td>
                     </tr>
                     <tr>
                         <td>2</td>
+                        <td>HD-0002</td>
                         <td>Lê Văn Sơn</td>
                         <td>Mặt bằng tầng 2,3 - 280 Trần Hưng Đạo</td>
                         <td>
-                            Đang thuê
+                            Còn hiệu lực
                         </td>
-                        <td>
-                            <button class="btn " style="border-color: #747264;">Chi tiết</button>
-                        </td>
-                        <td>
-                            <button class="btn " style="border-color: #747264;">Sửa</button>
-                        </td>
-
-                        <td>
-                            <button type="button" class="btn " style="border-color: #747264;" data-bs-toggle="modal"
-                                data-bs-target="#staticBackdrop">
-                                Xóa
-                            </button>
-                        </td>
+                        <td>30/03/2024</td>
+                        
                     </tr>
 
                     <tr>
                         <td>3</td>
+                        <td>HD-0003</td>
                         <td>Nguyễn Thị Hồng</td>
                         <td>Mặt bằng tầng 4 - 280 Trần Hưng Đạo</td>
                         <td>
-                            Đã thuê
+                            Đã hết hạn
                         </td>
-                        <td>
-                            <button class="btn " style="border-color: #747264;">Chi tiết</button>
-                        </td>
-                        <td>
-                            <button class="btn " style="border-color: #747264;">Sửa</button>
-                        </td>
-                        <td>
-                            <button type="button" class="btn " style="border-color: #747264;" data-bs-toggle="modal"
-                                data-bs-target="#staticBackdrop">
-                                Xóa
-                            </button>
-                        </td>
+                        <td>01/03/2024</td>
+                    
                     </tr>
 
 
                     <tr>
                         <td>4</td>
+                        <td>HD-0004</td>
                         <td>Nguyễn Thị Hồng Nhung</td>
                         <td>Mặt bằng tầng 6 - 280 Trần Hưng Đạo</td>
                         <td>
-                            Đang thuê
+                            Còn hiệu lực
                         </td>
-                        <td>
-                            <button class="btn " style="border-color: #747264;">Chi tiết</button>
-                        </td>
-                        <td>
-                            <button class="btn " style="border-color: #747264;">Sửa</button>
-                        </td>
-                        <td>
-                            <button type="button" class="btn " style="border-color: #747264;" data-bs-toggle="modal"
-                                data-bs-target="#staticBackdrop">
-                                Xóa
-                            </button>
-                        </td>
+                        <td>30/03/2024</td>
+                        
                     </tr>
 
                 </tbody>
             </table>
+
+            <!-- phaan trang -->
+            <!-- <div class="pagination-wrapper">
+                <nav aria-label="...">
+                    <ul class="pagination pagination-circle ">
+                        <li class="page-item">
+                            <a class="page-link">Trang đầu</a>
+                        </li>
+                        <div>
+                            <div>
+                                <li class="page-item active" aria-current="page">
+                                    <a class="page-link"><span
+                                            class="visually-hidden"></span>1</a>
+                                </li>
+                            </div>
+                       
+                        </div>
+                        <li class="page-item">
+                            <a class="page-link">Trang cuối</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div> -->
+            <!-- end phan trang -->
         </div>
     </div>
-    <a style="color: #EEB043;">© C0923G1 | Codegym Đà Nẵng</a>
+    
     </div>
     <!-- modal -->
     <!-- Button trigger modal -->
@@ -244,7 +244,7 @@
                     Bạn có muốn xóa không?
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn " style="border-color: #747264;"
+                    <button type="button" class="btn  btn-action-list-contract" 
                         data-bs-dismiss="modal">Hủy</button>
                     <button type="button" class="btn btn-secondary">Xóa</button>
                 </div>
@@ -257,26 +257,23 @@
     <div class="footer">
         <div class="display">
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-                <img class="logo_footer" src="../img/Logo_footer.png">
+                <img class="logo_footer" src="/img/Logo-footer.png">
             </div>
             <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2" style="background: #3F3836;"></div>
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6" style="background: #3F3836;">
 
-                <a class="text-footer"><i class="fa fa-map-marker" style="font-size:25px;color:white"></i> Địa
+                <p class="text-footer"><i class="fa fa-map-marker" style="font-size:25px;color:white"></i> Địa
                     chỉ : Số
                     35
-                    Thái Phiên, Phường Phước Ninh, Quận Hải Châu, Đà Nẵng</a><br />
-                <a class="text-footer"><i class="fa fa-phone" style="font-size:25px;color:white"></i>Diện thoại :
-                    0813.06.16.36</a>
-
+                    Thái Phiên, Phường Phước Ninh, Quận Hải Châu, TP Đà Nẵng</p><br />
+                <p class="text-footer"><i class="fa fa-phone" style="font-size:25px;color:white"></i>Diện thoại :
+                    0813.06.16.36</p>
             </div>
         </div>
         <a style="color: #EEB043;">© C0923G1 | Codegym Đà Nẵng</a>
     </div>
-    </div>
-    </div>
-    <a style="color: #EEB043;">© C0923G1 | Codegym Đà Nẵng</a>
-    </div>
+    <!-- Footer End -->
+
     <!-- modal -->
     <!-- Button trigger modal -->
 
@@ -294,13 +291,13 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
-                    <button type="button" class="btn " style="border-color: #747264;">Có</button>
+                    <button type="button" class="btn  btn-action-list-contract" >Có</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Footer End -->
+    
 
     <!-- chuyển màu khi nhấn -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -315,11 +312,9 @@
             $(this).css("background-color", "#ddb6739c");
         });
     </script>
+   
     <!-- kết thúc chuyển màu khi nhấn -->
-    <!-- kết thúc chuyển màu khi nhấn -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
+        
 </body>
 
 </html>
